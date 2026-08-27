@@ -27,4 +27,4 @@ Sistem; kitap ödünç alma/iade süreçlerini, dinamik ceza hesaplamalarını, 
 
 1. Projeyi klonlayın:
    ```bash
-   git clone [https://github.com/itu-durmazb24/library-management-system.git](https://github.com/itu-durmazb24/library-management-system.git)
+   git clone [https://github.com/itu-durmazb24/library-management-system.git]
