@@ -306,13 +306,13 @@ class Kutuphane:
             self.kitaplar = json.load(file)
         
         if odunc_mu==True:
-            print("\n----------------------------------------------------------\n                Kitaplıkta Bulunan Kitaplar\n----------------------------------------------------------\n")
+            print("\n----------------------------------------------------------\n                  Ödünç Verilmiş Kitaplar\n----------------------------------------------------------\n")
             for k in self.kitaplar:
                 if k["Ödünç Durumu"] == True:
                     print(k)
         
         elif odunc_mu==False:
-            print("\n----------------------------------------------------------\n                  Ödünç Verilmiş Kitaplar\n----------------------------------------------------------\n")
+            print("\n----------------------------------------------------------\n                Kitaplıkta Bulunan Kitaplar\n----------------------------------------------------------\n")
             for k in self.kitaplar:
                 if k["Ödünç Durumu"] == False:
                     print(k)
